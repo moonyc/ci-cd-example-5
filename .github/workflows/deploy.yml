@@ -10,7 +10,7 @@ env:
 
 jobs:
   test:
-    # comment
+    # environment
     environment: testing
     env: 
       MONGODB_CLUSTER_ADDRESS: cluster0.cuxezdb.mongodb.net
