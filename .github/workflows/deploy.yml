@@ -12,8 +12,8 @@ jobs:
   test:
     env: 
       MONGODB_CLUSTER_ADDRESS: cluster0.cuxezdb.mongodb.net
-      MONGODB_USERNAME: municfarad
-      MONGODB_PASSWORD: hvi2u8FAsejh0CRB
+      MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
+      MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD}}
     environment: testing
     runs-on: ubuntu-latest
     steps:
